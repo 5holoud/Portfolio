@@ -1,0 +1,339 @@
+*{margin: 0%; padding: 0%; font-family:sans-serif ;}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+
+}
+nav ul li{
+    display: inline-block;
+    padding: 50px 32px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(203, 202, 193);
+    font-weight: bold;
+    transition: 0.7s;
+}
+nav ul li a:hover{
+    color: rgb(161, 8, 175);
+}
+.logo{
+    color:rgb(203, 202, 193);
+    font-size: 35px;
+    text-shadow: 0px 0px 5px wheat;
+}
+span{
+    color:rgb(221, 14, 228) ;
+}
+.btn-contact{
+    background-color: rgb(221, 14, 228);
+    color: white;
+    text-decoration: none;
+    padding: 7px 32px;
+    border-radius: 30px;
+    transition: 0.7s;
+}
+.btn-contact:hover{
+    transform: scale(1.1);
+}
+.content{
+    margin-top: 12%;
+    margin-left:8% ;
+}
+.content .img img{
+    width: 360px;
+    height: 530px;
+    border-radius: 50px;
+    margin-left: 150px;
+
+    
+    
+}
+.content .text {
+    width: 100%;
+    line-height: 64px;
+    color: rgb(203, 202, 193);
+}
+.content .text h4{
+    font-size: 22px;
+    color: rgb(203, 202, 193);
+    letter-spacing: 2px;
+}
+.content .text h1{
+    font-size: 65px; 
+    letter-spacing: 1px;
+    text-shadow: 0px 0px 5px wheat;
+
+}
+.down{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.7s;
+    background-color: rgb(221, 14, 228);
+    border-radius: 30px;
+    padding: 7px 32px;
+    box-shadow: 0px 0px 5px beige , 0px 0px #858585;
+    
+}
+.down:hover{
+    background-color: transparent;
+    outline:none ;
+    border:rgb(221, 14, 228) 2px solid ;
+}
+.content .img{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom:  0px;
+    right: 5px;
+    top: 95px;
+
+}
+.icons{
+    
+display: inline-block;
+    width: 45px;
+    height: 41px;
+    box-shadow: 0px 0px 5px beige , 0px 0px #858585;
+    border-radius: 50px;
+    transition: 0.3s;
+
+}
+.icons:hover{
+    transform: scale(1.1);
+}
+#AboutMe{
+    
+    background-color: black;
+    width: 100%;
+    height: 102vh;}
+#AboutMe h2{
+    padding-top: 200px;
+    color: white;
+    font-size: 80px;
+    position: absolute;
+    right: 50px;
+    padding-right: 300px;
+    text-shadow: 0px 0px 5px wheat;
+}
+#AboutMe h3{
+    position: absolute;
+    top: 955px;
+    right: 343px;
+    font-size: 30px;
+    padding-right:150px ;
+    color: rgb(221, 14, 228);
+    
+}
+#AboutMe p{
+    color: white;
+    position: absolute;
+    top: 1020px;
+    right: 130px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.img2 img{
+    width: 30%;
+    height: 63%;
+    position: absolute;
+    bottom:  0px;
+    left: 0px;
+    top: 700px;
+    padding-top: 100px;
+    border-radius: 10px;
+    margin-left: 100px;
+    
+    
+}
+.read{
+    background-color: rgb(221, 14, 228);
+    color: white;
+    text-decoration: none;
+    padding: 7px 32px;
+    border-radius: 30px;
+    transition: 0.7s;   
+    box-shadow: 0px 0px 5px beige , 0px 0px #858585;
+    position: absolute;
+    top: 1180px;
+    right: 590px;
+    
+}
+.read:hover{
+    transform: scale(1.1);
+    
+}
+section #SKills{
+    background-color: white;
+    width: 100%;
+    height: 210vh;
+    display: flex;            /* Use Flexbox */
+    justify-content: center;   /* Align boxes horizontally in the center */
+    align-items: flex-start;   /* Align items at the top */
+    flex-wrap: wrap;
+    gap: 20px;                 /* Space between the boxes */
+    margin: 20px;
+}
+    #SKills .box2 {
+        border: 3px white solid;
+        display: inline-block;
+        width: 410px;
+        height: 450px;
+        border-radius: 30px;
+        margin-left: 120px ;
+        margin-top: 10px;
+        padding-top: 60px;
+        padding-left: 50px;
+        padding-right: 20px;
+        box-shadow: 0px 0px 5px rgb(113, 108, 108) , 0px 0px #858585;
+        transition: 0.7s; 
+    }
+    .box2:hover{
+        transform: scale(1.1);
+    }
+    #h3box{
+        color:rgb(221, 14, 228);
+        font-size: 62px;
+        margin-left: 700px;
+        padding-top: 70px;
+        margin-bottom: 70px;
+        text-shadow: 0px 0px 5px black;
+        display: inline-block;
+        
+    }
+#SKills a{
+        background-color: rgb(221, 14, 228);
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        padding: 8px 32px;
+        margin-top: 45px;
+        border-radius: 30px;
+        box-shadow: 0px 0px 5px beige , 0px 0px #858585;
+        transition: 0.7s;  }
+#SKills a:hover{
+        transform: scale(1.1);
+        background-color:rgb(232, 82, 238) ;
+
+    }
+    #SKills h3{
+        color:rgb(221, 14, 228) ;
+        padding: 19px 30px 10px 2px;
+        font-size: 25px;
+        text-shadow: 0px 0px 5px rgb(63, 59, 59);
+        text-align: center;
+    }
+    .box2 .image2{
+        width: 80px;
+        height: 69px;
+        padding-left: 150px;
+
+    }
+
+
+#Services {
+    background-color: white;
+    width: 100%;
+    height: 102vh;}
+#Services .box{
+    border: 3px white solid;
+    display: inline-block;
+    width: 280px;
+    height: 300px;
+    border-radius: 30px;
+    margin: 130px 120px 50px 50px;
+    padding-top: 70px;
+    padding-left: 50px;
+    box-shadow: 0px 0px 5px rgb(113, 108, 108) , 0px 0px #858585;
+    transition: 0.7s;  
+}
+.box:hover{
+    transform: scale(1.1);
+}
+.h2box,#title{
+    color:rgb(221, 14, 228);
+    font-size: 62px;
+    text-align: center;
+    padding-top: 70px;
+    text-shadow: 0px 0px 5px black;
+    margin-bottom: 40px;
+
+}
+.box .images{
+    width: 70px;
+    margin-bottom: 30px;
+    padding-left: 70px;
+
+}
+.box h3 ,.cont h3{
+    color:rgb(221, 14, 228);
+    font-size: 30px;
+    margin-bottom: 7px;
+    text-shadow: 0px 0px 5px rgb(103, 94, 94);
+}
+.box p ,.cont p {
+    font-size: 17px;
+}
+section #contact{
+    background-color: rgb(224, 224, 224);
+    width: 100%;
+    height: 80vh;}
+    #contact .cont{
+        border: 3px white solid;
+        display: inline-block;
+        width: 280px;
+        height: 250px;
+        border-radius: 30px;
+        margin-left: 260px ;
+        margin-top: 50px;
+        padding-top: 60px;
+        padding-left: 50px;
+        box-shadow: 0px 0px 5px rgb(113, 108, 108) , 0px 0px #858585;
+        transition: 0.7s; 
+    }
+    .cont:hover{
+        transform: scale(1.1);
+    }
+
+.cont img{
+    width: 70px;
+    margin-bottom: 30px;
+    padding-left: 70px;
+}
+/*footr*/
+footer .line{
+    background-color:rgb(211, 211, 211);
+    color: black;
+    width: 100%;
+    height: 11vh;
+
+}
+.line .icon{
+    width: 27px;
+    height: 27px;
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 20px;
+
+
+}
+.line h5{
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 1110px;
+}
+
+
+
